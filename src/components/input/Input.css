@@ -1,0 +1,33 @@
+#input-area {
+  margin: 3% auto;
+  display: flex;
+  justify-content: center;
+}
+
+#number-input {
+  width: 50%;
+}
+
+#number-button {
+  width: 25%;
+}
+
+@media screen and (min-width: 768px) {
+  #number-input {
+    width: 35%;
+  }
+
+  #number-button {
+    width: 15%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #number-input {
+    width: 25%;
+  }
+
+  #number-button {
+    width: 10%;
+  }
+}

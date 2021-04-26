@@ -1,0 +1,34 @@
+#calculator-area {
+  background-color: #eee;
+  min-height: 90vh;
+  text-align: center;
+}
+
+.number {
+  background-color: #fff;
+  width: 20%;
+  margin: 0.75% auto;
+  border: 1px solid #000;
+  box-shadow: 2px 2px 2px #555;
+}
+
+@media screen and (min-width: 768px) {
+  #calculator-area {
+    width: 75%;
+    min-height: 70vh;
+    margin: 0 auto;
+    margin-bottom: 5%;
+  }
+
+  #list-area {
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #calculator-area {
+    width: 75%;
+    max-height: 70vh;
+    overflow-y: scroll;
+  }
+}
